@@ -1,0 +1,3 @@
+{{ if not  (.Param "hideTime") }}
+<i class="fas fa-stopwatch" style="margin-left: 0.3rem;"></i> {{ .ReadingTime }} minute{{ if (ne .ReadingTime 1) }}s{{ end }}
+{{ end }}
