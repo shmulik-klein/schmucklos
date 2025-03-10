@@ -6,10 +6,10 @@
                 <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
                     {{ .Date.Format "Jan 2 2006" }}
                 </time>
-                <a href="{{ .RelPermalink }}">{{ if .Draft }}DRAFT: {{end}}{{ .Title }}</a>
-                <span style="font-size: xx-small; color: #642d22;">
+                <a href="{{ .RelPermalink }}" style="margin-left: 3px;">{{ if .Draft }}DRAFT: {{end}}{{ .Title }}</a>
+                <p style="font-size: xx-small; color: #642d22; margin-top: -1px; margin-left: -2px;">
                     {{ partial "reading-time.html" . }}
-                </span>
+                </p>
             </li>
         {{ end }}
         </ul>
