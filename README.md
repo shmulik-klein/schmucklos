@@ -2,8 +2,7 @@
 
 A fast, minimal, responsive [Hugo](https://gohugo.io/) theme for blogs, forked from [devise](https://themes.gohugo.io/devise)
 
-To see a live blog using it you can visit my blog: 
-- [themes.gohugo.io/devise](https://themes.gohugo.io/devise)
+To see a live blog using it you can visit my blog:
 - [shmulik-klein.github.io](https://shmulik-klein.github.io)
 
 ## Features
