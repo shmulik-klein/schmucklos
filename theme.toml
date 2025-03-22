@@ -1,12 +1,12 @@
-name = "devise"
+name = "schmucklos"
 license = "MIT"
-licenselink = "https://github.com/austingebauer/devise/blob/master/LICENSE"
+licenselink = "https://github.com/shmulik-klein/schmucklos/blob/main/LICENSE"
 description = "A fast, minimal, responsive Hugo theme for blogs."
-homepage = "https://github.com/austingebauer/devise"
+homepage = "https://github.com/shmulik-klein/schmucklos"
 tags = ["blog", "minimal", "personal", "simple", "clean"]
 features = ["responsive", "google analytics", "recent posts"]
 min_version = "0.61.0"
 
 [author]
-  name = "Austin Gebauer"
-  homepage = "https://github.com/austingebauer"
+  name = "Shmulik Klein"
+  homepage = "https://shmulik-klein.github.io"
