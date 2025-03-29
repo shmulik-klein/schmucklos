@@ -15,10 +15,19 @@ $fa-font-path: "../webfonts";
   font-size: 0.9em !important;
 }
 
+@font-face {
+  font-family: 'JetBrains';
+  src: 
+    url('/webfonts/JetBrainsMono-Regular.woff2') format('woff2'),
+    url('/webfonts/JetBrainsMono-Medium.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 // === Custom Styles ===
 #content {
   width: 100%;
-  max-width: 650px;
+  max-width: 800px;
   min-height: calc(100vh - 105px);
 }
 
@@ -53,6 +62,18 @@ $fa-font-path: "../webfonts";
   border: 1px solid;
   border-color: #ddd #ddd #ccc;
   border-radius: 3px;
+}
+
+pre code {
+  font-family: 'JetBrains';
+}
+
+p code {
+  font-family: 'JetBrains';
+  color: #815; /* Or your chosen color */
+  background-color: #f8f8f8; /* optional very light grey background */
+  // padding: 2px 4px; /* optional padding */
+  font-weight: bolder;
 }
 
 hr {
@@ -97,8 +118,9 @@ h4 {
   margin-bottom: 0.7rem;
 }
 
-a {
-  text-decoration: underline;
+.post-body a {
+  text-decoration: underline dotted;
+  font-weight: normal;
 }
 
 blockquote {
